@@ -1,0 +1,84 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+   color: rgb(36, 35, 43);
+   font-size: 40px;
+}
+.container{
+    padding: 50px;
+    
+}
+.testimonial-container{
+    display: flex;
+    margin-top: 80px;
+}
+.container1{
+    display: inline-block;
+    width: 50%;
+    /*height: 70vh;*/
+    
+    
+}
+.container2{
+    display: inline-block;
+    width: 50%;
+    /* height: 70vh; */
+    
+    
+}
+.testimonials-cards{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: white;
+}
+.testimonials-cards :hover{
+    background-color: rgb(232, 238, 248);
+    font-weight: lighter;
+    transition: 0.6s ease;
+    transform: scale(1.05);
+}
+.testimonials-cards li img{
+    border-radius: 50%;
+
+}
+.testimonials-cards li{
+    display: flex;
+    padding: 35px;
+    border-radius: 18px;
+    width: 60%;
+    /* background: rgb(252, 250, 248); */
+    box-shadow: 10px 10px 110px -25px rgba(32, 33, 46, 0.3);
+    background: white;
+
+}
+.testimonials-cards li:nth-child(2){
+    margin: 30px 0px;
+}
+li .card-content{
+    margin-left: 40px;
+}
+.card-content .name{
+    font-size: 18px;
+    font-weight: 500;
+}
+.card-content .profession{
+    font-size: 15px;
+    color: rgb(109, 106, 106);
+}
+.rating img{
+    margin-right: 5px;
+    margin-top: 8px;
+}
+.para{
+    margin-top: 50px;
+}
